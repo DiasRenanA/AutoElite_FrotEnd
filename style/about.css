@@ -1,0 +1,47 @@
+/* #region  Variaveis*/
+:root {
+    --primaryV1-color: #090C08;
+    --primaryV2-color: #2E352C;
+    --primaryV3-color: #50544E;
+    --secondaryV1-color: #C4151C;
+    --secondaryV2-color: #CA4045;
+    --secondaryV3-color: #D6696D;
+    --tertiaryV1-color: #E2C044;
+    --tertiaryV2-color: #EECE5A;
+    --tertiaryV3-color: #F9DB71;
+    --whiteV1-color: #FFFFFF;
+    --whiteV2-color: #E2E2E2;
+    --whiteV3-color: #BFBFBF;
+    --font-size-h1: 32px;
+    --font-size-h2: 26px;
+    --font-size-p: 16px;
+    --font-family: Arial, Helvetica, sans-serif;
+  }
+/* #endregion */
+
+/* #region ConfPag*/
+.container{
+    background-color: var(--whiteV1-color);
+  }
+  
+  .container-pagina{
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+  /* #endregion */
+
+/* #region  TopPag*/
+.box-img-container-top{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* #endregion */
+
+/* #region  BottomPag*/
+.container-bottom{
+    display: flex;
+    flex-direction: row;
+}
+/* #endregion */
