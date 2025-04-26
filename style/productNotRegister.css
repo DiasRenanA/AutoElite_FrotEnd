@@ -114,24 +114,132 @@ border: 10px;
 /* #endregion */
 
 /* #region TopPag*/
+.container-top{
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+.box-input-product{
+  display: flex;
+  background-color: var(--primaryV1-color);
+  padding: 6px 5px 6px 15px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.box-input-product input{
+  width: 100%;
+  background-color: var(--primaryV1-color);
+  border: #090C08;
+  color: var(--whiteV1-color);
+}
+
+.box-input-product input::placeholder{
+  color: white;
+}
+
+.box-input-product input:focus {
+  outline: none;
+  border: none;
+}
+
 .box-imgs{
   display: flex;
 }
 
-.box-produt-main{
-  border: 1px solid black;
-}
-
 .box-imgs img{
-  width: 200px;
+  width: 250px;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
+.title-product-main{
+  margin-bottom: 10px;
+  font-weight: bolder;s
+}
 
+.box-product-main{
+  border: 3px solid black;
+}
+
+.box-product-main p{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.box-learnMore {
+  width: 400px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #E2E2E2;
+  border-radius: 2px;
+  padding-top: 3px;
+}
 
 /* #endregion */
 
 /* #region BottomPag*/
+.title-product-interest{
+  margin-bottom: 10px;
+}
 
-/* #endregion */
+.container-bottom{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.container-bottom img{
+  width: 220px;
+  margin-bottom: 30px;
+}
+
+.boxes-produt-top{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.boxes-produt-top p{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.boxes-produt-botton{
+  display: flex;
+  gap: 50px;
+}
+
+.boxes-produt-botton p{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.box-produt{
+  border: 2px solid var(--primaryV1-color);
+  padding: 20px 30px 10px 30px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.box-produt-learnMore{
+  width: 200px;
+  height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #E2E2E2;
+  border-radius: 2px;
+  padding-top: 2px;
   
+}
+/* #endregion */
