@@ -86,7 +86,7 @@ footer {
   color: var(--whiteV1-color);
   justify-content: center;
   gap: 150px;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .footer-align{
@@ -119,6 +119,8 @@ footer {
 /* #region CentralPag*/
 .container-central{
     height: 500px;
+    padding-left: 22vw;
+    padding-right: 22vw;
 }
 
 .text-top{
@@ -133,32 +135,57 @@ footer {
 
 .cards{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
 }
 
-.card {
-    width: 300px;
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-    position: relative;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    display: flex;
-    align-items: end;
-  }
+.card{
+  color: var(--whiteV1-color);
+  text-align: center;
+}
+
+.card h3{
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.card p{
+  font-size: 1.0em;
+  padding: 0 80px 0 80px;
+  margin-bottom: 20px;
+}
 
 .client {
-    background-color: #d41c1c;
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+    background-color: var(--secondaryV1-color);
+    border: 2px solid var(--whiteV1-color);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    margin-bottom: 60px;
+    padding: 15px 30px 20px 10px;
+    justify-items: center;
   }
   
+.client button{
+  background-color: var(--primaryV1-color);
+  color: var(--whiteV1-color);
+  padding: 7px 5px 7px 5px;
+  border-radius: 2px;
+}
+
 .store {
-    background-color: #0c0c0c;
-    border: 2px solid #ffcc00;
-    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
-    height: 100%;
-    padding-top: 20px;
+    background-color: var(--primaryV1-color);
+    border: 2px solid var(--tertiaryV1-color);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    margin-top: 60px;
+    padding: 15px 10px 10px 30px;
   }
+
+.store button{
+  background-color: var(--secondaryV1-color);
+  color: var(--whiteV1-color);
+  padding: 7px 5px 7px 5px;
+  border-radius: 2px;
+}
+
+.store-premium {
+  color: #f2c200;
+}
 /* #endregion */
